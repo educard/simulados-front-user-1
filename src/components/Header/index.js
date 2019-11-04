@@ -12,8 +12,6 @@ import { getUsername } from 'store/user'
 import './header.scss'
 
 const onPressEnter = () => {
-  console.log('lalalalalala')
-
   localStorage.clear()
   window.location.reload()
 }
